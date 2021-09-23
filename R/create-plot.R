@@ -18,7 +18,8 @@ df %>%
   geom_point(color = "red") +
   ggtitle(city) +
   labs(y = "Humidity 9am", x = "Temperature 9am") +
-  geom_smooth(method = "lm", color = "purple", se = FALSE)
+  geom_smooth(method = "lm", color = "black", se = FALSE) + 
+  theme_grey()
   
 
 # Save the plot in graphics/
